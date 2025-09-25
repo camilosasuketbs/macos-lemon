@@ -1,0 +1,4 @@
+
+
+sudo ln -sF /bergedge/lemon/meta/deep_gray_ambient.jpg /System/Library/CoreServices/DefaultDesktop.jpg
+sudo rm -rf /Library/Caches/com.apple.desktop.admin.png
