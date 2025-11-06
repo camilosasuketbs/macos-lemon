@@ -1,0 +1,8 @@
+tools:
+- name: Checkout
+  fileStarter: {command: ~/code/operating_system/tool/bin/launch_terminal_with_checkout,
+    parameters: '${filePath}'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
