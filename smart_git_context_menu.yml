@@ -1,0 +1,8 @@
+tools:
+- name: Checkout
+  fileStarter: {command: '${smartGitDir}/Contents/Resources/open-terminal.sh', parameters: '"
+      -c cd ''${filePath}''; checkout; exec zsh"'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
